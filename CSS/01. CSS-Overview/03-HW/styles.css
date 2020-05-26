@@ -1,0 +1,57 @@
+body {
+    background-color: #afb1b5;
+}
+
+h1 {
+    color: #FAFAD2;
+}
+
+header.navigation {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+}
+ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li:last-child {
+    text-decoration: underline;
+}
+
+ul li:nth-child(2) a {
+    background-color: lightgrey;
+}
+
+.overflow {
+    overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: clip; 
+}
+
+article header {
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+footer {
+    font-size: 0.75em;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.1em;
+}

@@ -1,0 +1,228 @@
+table.outer {
+    width: 500px;
+    border: 1px solid #7a8493;
+	background: linear-gradient(to bottom, #dce4eb 0%, #d8eeff 28%);
+	margin-bottom: 8px;
+}
+
+input.result {
+    margin-top: 9px;
+    margin-left: 5px;
+    width: 97%;
+    height: 60px;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 1.5em;
+    background: linear-gradient(to bottom, #d7ecfa 3%, #e9eef0 55%);}
+
+input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+table.inner {
+    background: linear-gradient(to bottom, #e6eff7 0%, #cde2f1 28%);
+    margin-top: 3px;
+    margin-left: 5px;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid lightslategray;
+    font-size: 0.9em;
+}
+
+table.inner tr:nth-child(2n+1) {
+    color: #24395e;
+}
+
+table.inner tr:nth-child(2n) {
+    color: #677a9b;
+}
+
+input[type='button'] {
+    width: 40px;
+    height: 33px;
+    margin: 0px;
+    text-align: center;
+    border: 1px solid #677a9b;
+    color: #24395e;
+}
+
+input[value='0'] {
+    width: 90px;
+}
+
+input[value='='] {
+    height: 75px;
+    font-size: 1.5em;
+}
+
+label {
+    font-size: 0.8em;
+}
+
+table.numeric, table.type {
+    background: linear-gradient(to bottom, #ebf1f6 0%, #d5ebfb 28%);
+    opacity: 0.9;
+    border: 1px solid #9ba0b5;
+    width: 75px;
+    margin-left: 5px;
+    color: #677a9b;
+}
+
+input[type='button']:hover {
+    background: linear-gradient(#FFE3B5 50%, #FCBF5D 50%);
+}
+
+input.inactive {
+	background: linear-gradient(to bottom, #ebf1f6 0%, #d5ebfb 28%);
+	opacity: 0.9;
+    font-size: 0.9em;
+    pointer-events: none;
+}
+
+input.numbers {
+    font-size: 0.9em;
+	background: linear-gradient(to bottom, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%);
+}
+
+input.standart {
+    text-align: center;
+	background: linear-gradient(to bottom, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%);
+}
+
+input[value='1/x'] {
+    font-family: cursive;
+    font-size: 0.7em;
+}
+
+input[value='&radic;'] {
+    font-size: 0.7em;
+}
+
+input[type='radio'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    padding: 2px;
+    background-clip: content-box;
+    border: 1px solid black;
+    background-color: #e7e6e7;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+    background-color: #184fa5;
+}
+
+div.wrapper {
+    width: 500px;
+    border-top: 1px solid #7a8493;
+    border-right: 1px solid #7a8493;
+    border-left: 1px solid #7a8493;
+    margin-left: 8px;
+}
+
+div.menu {
+    height: 25px;
+    background: linear-gradient(to bottom, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.menu ul li {
+    float: left;
+    display: block;
+    padding-top: 4px;
+    margin-right: 15px;
+    margin-left: 3px;
+}
+
+div.menu ul li:hover {
+    background: #8CD1FF;
+}
+
+div.menu ul li::first-letter {
+    text-decoration: underline;
+}
+
+div.container {
+    width: 517px;
+    border-top: 1px solid #7a8493;
+    border-right: 1px solid #7a8493;
+    border-left: 1px solid #7a8493;
+    border-bottom: 1px solid #7a8493;
+    background-color: #b1c4e2
+}
+
+div.options {
+    display: inline-block;
+}
+
+img {
+    width: 17px;
+    margin-left: 7px;
+    height: 20px;
+}
+
+div.options ul li {
+    float: left;
+}
+
+div.options ul li:first-child {
+    margin-right: 5px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+div.options ul li:nth-child(2) {
+    margin-right: 15px;
+    margin-top: 3px;
+    font-size: 0.9em;
+}
+
+div.browse {
+    display: inline-block;
+    margin-left: 290px;
+    height: 30px;
+}
+
+.browse ul li.browser {
+    padding: 3px;
+    width: 30px;
+    text-align: center;
+    background: linear-gradient(#F0F6FB 0%, #E2EAF3 49%, #D5E0ED 50%, #D7E2EF 100%);
+    float: right;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 2px black;
+    box-shadow: 0px 0px 2px black;
+}
+
+.browse ul li:first-child {
+    background: linear-gradient(#FFB0B0 50%, #FF4A4A 50%);
+    color: white;
+    text-shadow: 0px 1px 0px black;
+    border-radius: 0px 0px 5px 0px;
+}
+
+.browse ul li:nth-child(2) {
+    border-radius: 0px 0px 0px 5px;
+}
+
+.browse ul li:last-child {
+    border-radius: 0px 0px 0px 5px;
+}
+
+.browse ul li:last-child:hover {
+    background: #8CD1FF;
+}
+
+.browse ul li:nth-child(2):hover {
+    background: #8CD1FF;
+}

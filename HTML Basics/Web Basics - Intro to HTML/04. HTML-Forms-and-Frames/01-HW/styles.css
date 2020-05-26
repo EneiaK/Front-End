@@ -1,0 +1,35 @@
+td {
+    border: 1px solid lightgray;
+}
+
+td.label {
+    text-align: right;
+    font-weight: bold;
+}
+
+
+label.state {
+    text-align: right;
+    font-weight: bold;
+}
+
+#month {
+    width: 10%;
+}
+
+#day {
+    width: 10%;
+}
+
+#year {
+    width: 20%;
+}
+
+tfoot {
+    text-align: center;
+    background-color: lightyellow;
+}
+
+form {
+    width: 30%;
+}
