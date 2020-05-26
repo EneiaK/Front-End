@@ -1,0 +1,35 @@
+table {
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    width: 850px;
+}
+
+thead, tfoot {
+    background: linear-gradient(90deg, rgba(225,224,231,1) 0%, rgba(238,247,250,1) 100%);
+}
+
+tfoot, th, td {
+    height: 30px;
+}
+
+th.fill {
+    height: 35px;
+}
+
+th, td {
+    border: 1px solid darkgray;
+    font-weight: normal;
+    text-align: left;
+    padding-left: 5px;
+    text-align: center;
+}
+
+th.id {
+    width: 70px;
+    text-align: center;
+}
+
+div.icons span:last-child {
+    text-align: right;
+    padding-left: 270px;
+}

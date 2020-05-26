@@ -1,0 +1,56 @@
+table {
+    width: 260px;
+    background-color: #595959;
+    font-family: sans-serif;
+}
+
+th {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: lightgray;
+}
+
+td {
+    text-align: left;
+    color: #FFF2B3;
+    font-size: 0.7em;
+    padding: 6px;
+}
+
+.info {
+    text-align: left;
+    font-style: italic;
+    color: #cecece;
+}
+
+div {
+    margin-top: 10px;
+}
+
+span {
+    display: block;
+    margin-top: 3px;
+}
+
+td.status {
+    font-weight: bold;
+    color: #D56B1C;
+}
+
+div span:nth-child(2) {
+    font-weight: bold;
+    color: red;
+}
+
+td.data {
+    color: #949890;
+}
+
+span.dot {
+    height: 9px;
+    width: 9px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    display: inline-block;
+}
